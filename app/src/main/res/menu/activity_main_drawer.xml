@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/send_sms"
+            android:icon="@mipmap/ic_action_chat"
+            android:title="@string/send_sms" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_action_settings"
+            android:title="@string/settings" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_action_about"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/exit_app"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
